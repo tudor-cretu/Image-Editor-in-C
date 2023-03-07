@@ -29,36 +29,36 @@
 <p>     CROP - crop the image with the area of previous selected coordinates </p>
 <p>     APPLY {parameter} - applies filter to the image or its selected coordinates, parameter can be SHARPEN, EDGE, BLUR, GAUUSIAN_BLUR </p>
 
-    <h4> 4) File Formats: </h4>
-    This program supports the following file formats:
-    -> PGM (Portable Gray Map) ASCII and binary
-    -> PPM (Portable Pixmap) ASCII and binary
-    Both PGM and PPM are image file formats that are used to store digital images. PGM is used for grayscale images 
+<h4> 4) File Formats: </h4>
+<p> This program supports the following file formats: </p>
+<p>    -> PGM (Portable Gray Map) ASCII and binary </p>
+<p>    -> PPM (Portable Pixmap) ASCII and binary </p>
+<p>    Both PGM and PPM are image file formats that are used to store digital images. PGM is used for grayscale images 
     while PPM is used for color images. The ASCII version of these file formats stores the image data in a 
-    human-readable text format, while the binary version stores the data in a compact binary format.
+    human-readable text format, while the binary version stores the data in a compact binary format. </p>
 
-    <h4> 5) Examples: </h4>
-    Open a binary PGM image "image.pgm" and create a histogram with 20 bins and 50 max stars:
-        LOAD image.pgm
-        HISTOGRAM 50 8
-    Save the image with the name "image_histogram.pgm" in binary format:
-        SAVE image_histogram.pgm
-    Perform histogram equalization on a grayscale image:
-        LOAD image.pgm
-        EQUALIZE
-        SAVE image_equalized.pgm ascii
-    Crop a rectangular area from an RGB image:
-        LOAD image.ppm
-        SELECT 100 200 400 500
-        CROP
-        SAVE image_cropped.ppm
-    Apply the Gaussian Blur filter to an RGB image:
-        LOAD image.ppm
-        APPLY GAUSSIAN_BLUR
-        SAVE image_blurred.ppm ascii
-    It is important to note that the program only allows one image to be loaded at a time, and any subsequent
+<h4> 5) Examples: </h4>
+<p>    Open a binary PGM image "image.pgm" and create a histogram with 20 bins and 50 max stars: </p>
+<p>        LOAD image.pgm </p>
+<p>        HISTOGRAM 50 8 </p>
+<p>    Save the image with the name "image_histogram.pgm" in binary format: </p>
+<p>        SAVE image_histogram.pgm </p>
+<p>    Perform histogram equalization on a grayscale image: </p>
+<p>        LOAD image.pgm </p>
+<p>        EQUALIZE </p>
+<p>        SAVE image_equalized.pgm ascii </p>
+<p>    Crop a rectangular area from an RGB image: </p>
+<p>        LOAD image.ppm </p>
+<p>        SELECT 100 200 400 500 </p>
+<p>        CROP </p>
+<p>        SAVE image_cropped.ppm </p>
+<p>    Apply the Gaussian Blur filter to an RGB image: </p>
+<p>        LOAD image.ppm </p>
+<p>        APPLY GAUSSIAN_BLUR </p>
+<p>        SAVE image_blurred.ppm ascii </p>
+<p>    It is important to note that the program only allows one image to be loaded at a time, and any subsequent
     image loading will overwrite the previous image. Also, before saving an image, the user must first load
-    an image or perform an operation on the previously loaded image.
+    an image or perform an operation on the previously loaded image. </p>
 
 6) Troubleshooting
     If you encounter any issues while building or running the program, please check the following:
