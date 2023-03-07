@@ -3,33 +3,33 @@
 
 <h1 align=center> PPM and PGM Image Editor </h1>
 
-1) Introduction: 
-    This is a PPM and PGM image editing program. The program is designed to support both ASCII and binary 
+<h5> 1) Introduction: </h5>
+<p align = left>    This is a PPM and PGM image editing program. The program is designed to support both ASCII and binary 
     formats, and offers a wide range of features such as cropping, histogram creation, image equalization, 
     and image filtering. The user interface is easy to navigate, making it suitable for both professional
-    and amateur photographers. With this program, you can easily open, edit and save RGB or grayscale images.
+    and amateur photographers. With this program, you can easily open, edit and save RGB or grayscale images. </p>
 
-2) Installation:
-    Download or clone the repository to your local machine.
+<h5> 2) Installation: </h5> 
+<p align = left>    Download or clone the repository to your local machine.
     Navigate to the root directory of the project in your terminal.
     Run the command <make build> to build the program
     Once the build is successful, you can run the program by using the command ./image_editor
-    To clean the generated files from the build process, use the command <make clean>
+    To clean the generated files from the build process, use the command <make clean> </p>
 
-3) Usage:
-    <input> --> mandatory input
-    [input] --> optional input
-    Use the following commands to edit your image:
-    LOAD <file_name> <file_type> - open a file, file_type can be P2, P3, P5, P6
-    SAVE <file_name> [ascii] - save the current image in ascii (specify it) or binary format
-    HISTOGRAM <max_stars> <bins> - create the histogram of a grayscale image with X max. number of stars and Y bins
-    EQUALIZE - perform histogram equalization on a grayscale image
-    SELECT <x1> <y1> <x2> <y2> - select the area of given coordinates
-    SELECT ALL - select the area of the whole image
-    CROP - crop the image with the area of previous selected coordinates
-    APPLY <parameter> - applies filter to the image or its selected coordinates, parameter can be SHARPEN, EDGE, BLUR, GAUUSIAN_BLUR
+    <h5> 3) Usage: </h5>
+    <p>    <input> --> mandatory input </p>
+<p>     [input] --> optional input </p>
+<p>     Use the following commands to edit your image: </p>
+<p>     LOAD <file_name> <file_type> - open a file, file_type can be P2, P3, P5, P6 </p>
+<p>     SAVE <file_name> [ascii] - save the current image in ascii (specify it) or binary format </p>
+<p>     HISTOGRAM <max_stars> <bins> - create the histogram of a grayscale image with X max. number of stars and Y bins </p>
+<p>     EQUALIZE - perform histogram equalization on a grayscale image </p>
+<p>     SELECT <x1> <y1> <x2> <y2> - select the area of given coordinates </p>
+<p>    SELECT ALL - select the area of the whole image </p>
+<p>     CROP - crop the image with the area of previous selected coordinates </p>
+<p>     APPLY <parameter> - applies filter to the image or its selected coordinates, parameter can be SHARPEN, EDGE, BLUR, GAUUSIAN_BLUR </p>
 
-4) File Formats:
+    <h5> 4) File Formats: </h5>
     This program supports the following file formats:
     -> PGM (Portable Gray Map) ASCII and binary
     -> PPM (Portable Pixmap) ASCII and binary
@@ -37,7 +37,7 @@
     while PPM is used for color images. The ASCII version of these file formats stores the image data in a 
     human-readable text format, while the binary version stores the data in a compact binary format.
 
-5) Examples:
+    <h5> 5) Examples: </h5>
     Open a binary PGM image "image.pgm" and create a histogram with 20 bins and 50 max stars:
         LOAD image.pgm
         HISTOGRAM 50 8
