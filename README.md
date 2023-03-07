@@ -3,21 +3,21 @@
 
 <h1 align=center> PPM and PGM Image Editor </h1>
 
-<h5> 1) Introduction: </h5>
+<h4> 1) Introduction: </h4>
 <p align = left>    This is a PPM and PGM image editing program. The program is designed to support both ASCII and binary 
     formats, and offers a wide range of features such as cropping, histogram creation, image equalization, 
     and image filtering. The user interface is easy to navigate, making it suitable for both professional
     and amateur photographers. With this program, you can easily open, edit and save RGB or grayscale images. </p>
 
-<h5> 2) Installation: </h5> 
+<h4> 2) Installation: </h4> 
 <p align = left>    Download or clone the repository to your local machine.
     Navigate to the root directory of the project in your terminal.
     Run the command <make build> to build the program
     Once the build is successful, you can run the program by using the command ./image_editor
     To clean the generated files from the build process, use the command <make clean> </p>
 
-    <h5> 3) Usage: </h5>
-    <p>    <input> --> mandatory input </p>
+<h4> 3) Usage: </h4>
+<p>    <input> --> mandatory input </p>
 <p>     [input] --> optional input </p>
 <p>     Use the following commands to edit your image: </p>
 <p>     LOAD <file_name> <file_type> - open a file, file_type can be P2, P3, P5, P6 </p>
