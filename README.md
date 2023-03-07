@@ -17,19 +17,19 @@
     To clean the generated files from the build process, use the command <make clean> </p>
 
 <h4> 3) Usage: </h4>
-<p>    <input> --> mandatory input </p>
+<p>    {input} --> mandatory input </p>
 <p>     [input] --> optional input </p>
 <p>     Use the following commands to edit your image: </p>
-<p>     LOAD <file_name> <file_type> - open a file, file_type can be P2, P3, P5, P6 </p>
-<p>     SAVE <file_name> [ascii] - save the current image in ascii (specify it) or binary format </p>
-<p>     HISTOGRAM <max_stars> <bins> - create the histogram of a grayscale image with X max. number of stars and Y bins </p>
+<p>     LOAD {file_name} {file_type} - open a file, file_type can be P2, P3, P5, P6 </p>
+<p>     SAVE {file_name} [ascii] - save the current image in ascii (specify it) or binary format </p>
+<p>     HISTOGRAM {max_stars} {bins} - create the histogram of a grayscale image with X max. number of stars and Y bins </p>
 <p>     EQUALIZE - perform histogram equalization on a grayscale image </p>
-<p>     SELECT <x1> <y1> <x2> <y2> - select the area of given coordinates </p>
+<p>     SELECT {x1} {y1} {x2} {y2} - select the area of given coordinates </p>
 <p>    SELECT ALL - select the area of the whole image </p>
 <p>     CROP - crop the image with the area of previous selected coordinates </p>
-<p>     APPLY <parameter> - applies filter to the image or its selected coordinates, parameter can be SHARPEN, EDGE, BLUR, GAUUSIAN_BLUR </p>
+<p>     APPLY {parameter} - applies filter to the image or its selected coordinates, parameter can be SHARPEN, EDGE, BLUR, GAUUSIAN_BLUR </p>
 
-    <h5> 4) File Formats: </h5>
+    <h4> 4) File Formats: </h4>
     This program supports the following file formats:
     -> PGM (Portable Gray Map) ASCII and binary
     -> PPM (Portable Pixmap) ASCII and binary
@@ -37,7 +37,7 @@
     while PPM is used for color images. The ASCII version of these file formats stores the image data in a 
     human-readable text format, while the binary version stores the data in a compact binary format.
 
-    <h5> 5) Examples: </h5>
+    <h4> 5) Examples: </h4>
     Open a binary PGM image "image.pgm" and create a histogram with 20 bins and 50 max stars:
         LOAD image.pgm
         HISTOGRAM 50 8
