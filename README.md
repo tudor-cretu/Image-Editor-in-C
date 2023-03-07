@@ -1,7 +1,7 @@
 Copyright Cretu Mihnea Tudor 315CAa 2022 - 2023
 3rd Homework for Programming Languages Class, Year I - Faculty of Automation Control and Computer Science, Polytechnic University of Bucharest
 
-                                PPM and PGM Image Editor
+<h1 align=center> PPM and PGM Image Editor </h1>
 
 1) Introduction: 
     This is a PPM and PGM image editing program. The program is designed to support both ASCII and binary 
