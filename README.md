@@ -10,16 +10,18 @@
     and amateur photographers. With this program, you can easily open, edit and save RGB or grayscale images. </p>
 
 <h4> 2) Installation: </h4> 
-<p align = left>    Download or clone the repository to your local machine.
-    Navigate to the root directory of the project in your terminal.
-    Run the command <make build> to build the program
-    Once the build is successful, you can run the program by using the command ./image_editor
-    To clean the generated files from the build process, use the command <make clean> </p>
+<p>    Download or clone the repository to your local machine. </p>
+<p>    Navigate to the root directory of the project in your terminal. </p>
+<p>    Run the command <make build> to build the program </p>
+<p>    Once the build is successful, you can run the program by using the command ./image_editor </p>
+<p>    To clean the generated files from the build process, use the command {make clean} </p>
 
 <h4> 3) Usage: </h4>
 <p>    {input} --> mandatory input </p>
 <p>     [input] --> optional input </p>
+<p> </p>
 <p>     Use the following commands to edit your image: </p>
+<p> </p>
 <p>     LOAD {file_name} {file_type} - open a file, file_type can be P2, P3, P5, P6 </p>
 <p>     SAVE {file_name} [ascii] - save the current image in ascii (specify it) or binary format </p>
 <p>     HISTOGRAM {max_stars} {bins} - create the histogram of a grayscale image with X max. number of stars and Y bins </p>
@@ -41,33 +43,38 @@
 <p>    Open a binary PGM image "image.pgm" and create a histogram with 20 bins and 50 max stars: </p>
 <p>        LOAD image.pgm </p>
 <p>        HISTOGRAM 50 8 </p>
+<p> </p>
 <p>    Save the image with the name "image_histogram.pgm" in binary format: </p>
 <p>        SAVE image_histogram.pgm </p>
+<p> </p>
 <p>    Perform histogram equalization on a grayscale image: </p>
 <p>        LOAD image.pgm </p>
 <p>        EQUALIZE </p>
 <p>        SAVE image_equalized.pgm ascii </p>
+<p> </p>
 <p>    Crop a rectangular area from an RGB image: </p>
 <p>        LOAD image.ppm </p>
 <p>        SELECT 100 200 400 500 </p>
 <p>        CROP </p>
 <p>        SAVE image_cropped.ppm </p>
+<p> </p>
 <p>    Apply the Gaussian Blur filter to an RGB image: </p>
 <p>        LOAD image.ppm </p>
 <p>        APPLY GAUSSIAN_BLUR </p>
 <p>        SAVE image_blurred.ppm ascii </p>
+<p> </p>
 <p>    It is important to note that the program only allows one image to be loaded at a time, and any subsequent
     image loading will overwrite the previous image. Also, before saving an image, the user must first load
     an image or perform an operation on the previously loaded image. </p>
 
-6) Troubleshooting
-    If you encounter any issues while building or running the program, please check the following:
-    Ensure that you are running the program in the correct directory and that all the files are in the same directory
-    If you are having trouble loading a file, make sure that the file name is entered correctly
-    If you are having trouble saving a file, make sure that the file name and file type are entered correctly
-    If you are having trouble applying a filter, make sure that the filter parameter is entered correctly
+<h4> 6) Troubleshooting </h4>
+<p>    If you encounter any issues while building or running the program, please check the following: </p>
+<p>    Ensure that you are running the program in the correct directory and that all the files are in the same directory </p>
+<p>    If you are having trouble loading a file, make sure that the file name is entered correctly </p>
+<p>    If you are having trouble saving a file, make sure that the file name and file type are entered correctly </p>
+<p>    If you are having trouble applying a filter, make sure that the filter parameter is entered correctly </p>
 
-7) Technical Details
-    All the functions and methods used for making or using this program are detailed in the source code,
+<h4> 7) Technical Details </h4>
+<p>    All the functions and methods used for making or using this program are detailed in the source code,
     the functions are explained in function.c, the arguments for functions are explained in function.h and the general
-    code is explained in image_editor.c
+    code is explained in image_editor.c </p>
