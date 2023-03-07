@@ -1,8 +1,8 @@
 <h5 align = center> Copyright Cretu Mihnea Tudor 315CAa 2022 - 2023 </h5> 
 <h5 align = center> 3rd Homework for Programming Languages Class, Year I - Faculty of Automation Control and Computer Science, Polytechnic University of Bucharest </h5>
 
-<h1 align=center> PPM and PGM Image Editor </h1>
-<i align=center> Program finished, README under construction </i>
+<h1 align = center> PPM and PGM Image Editor </h1>
+<p align = center> <i> Program finished, README under construction </i> </p>
 <h4> 1) Introduction: </h4>
 <p align = left>    This is a PPM and PGM image editing program. The program is designed to support both ASCII and binary 
     formats, and offers a wide range of features such as cropping, histogram creation, image equalization, 
