@@ -1,5 +1,5 @@
-<h5 align = right> Copyright Cretu Mihnea Tudor 315CAa 2022 - 2023 </h5> 
-<h5 align = right> 3rd Homework for Programming Languages Class, Year I - Faculty of Automation Control and Computer Science, Polytechnic University of Bucharest </h5>
+<h5 align = center> Copyright Cretu Mihnea Tudor 315CAa 2022 - 2023 </h5> 
+<h5 align = center> 3rd Homework for Programming Languages Class, Year I - Faculty of Automation Control and Computer Science, Polytechnic University of Bucharest </h5>
 
 <h1 align=center> PPM and PGM Image Editor </h1>
 
