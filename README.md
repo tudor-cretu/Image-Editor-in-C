@@ -8,15 +8,17 @@
     formats, and offers a wide range of features such as cropping, histogram creation, image equalization, 
     and image filtering. The user interface is easy to navigate, making it suitable for both professional
     and amateur photographers. With this program, you can easily open, edit and save RGB or grayscale images. </p>
+<br>
 
-<h4> 2) Installation: </h4> 
+<h2> 2) Installation: </h2> 
 <p>    Download or clone the repository to your local machine. </p>
 <p>    Navigate to the root directory of the project in your terminal. </p>
 <p>    Run the command <make build> to build the program </p>
 <p>    Once the build is successful, you can run the program by using the command ./image_editor </p>
 <p>    To clean the generated files from the build process, use the command {make clean} </p>
+<br>
 
-<h4> 3) Usage: </h4>
+<h2> 3) Usage: </h2>
 <p>    {input} --> mandatory input </p>
 <p>     [input] --> optional input </p>
 <p> </p>
@@ -30,16 +32,18 @@
 <p>    SELECT ALL - select the area of the whole image </p>
 <p>     CROP - crop the image with the area of previous selected coordinates </p>
 <p>     APPLY {parameter} - applies filter to the image or its selected coordinates, parameter can be SHARPEN, EDGE, BLUR, GAUUSIAN_BLUR </p>
+<br>
 
-<h4> 4) File Formats: </h4>
+<h2> 4) File Formats: </h2>
 <p> This program supports the following file formats: </p>
 <p>    -> PGM (Portable Gray Map) ASCII and binary </p>
 <p>    -> PPM (Portable Pixmap) ASCII and binary </p>
 <p>    Both PGM and PPM are image file formats that are used to store digital images. PGM is used for grayscale images 
     while PPM is used for color images. The ASCII version of these file formats stores the image data in a 
     human-readable text format, while the binary version stores the data in a compact binary format. </p>
+<br>
 
-<h4> 5) Examples: </h4>
+<h2> 5) Examples: </h2>
 <p>    Open a binary PGM image "image.pgm" and create a histogram with 20 bins and 50 max stars: </p>
 <p>        LOAD image.pgm </p>
 <p>        HISTOGRAM 50 8 </p>
@@ -66,15 +70,17 @@
 <p>    It is important to note that the program only allows one image to be loaded at a time, and any subsequent
     image loading will overwrite the previous image. Also, before saving an image, the user must first load
     an image or perform an operation on the previously loaded image. </p>
+<br>
 
-<h4> 6) Troubleshooting </h4>
+<h2> 6) Troubleshooting </h2>
 <p>    If you encounter any issues while building or running the program, please check the following: </p>
 <p>    Ensure that you are running the program in the correct directory and that all the files are in the same directory </p>
 <p>    If you are having trouble loading a file, make sure that the file name is entered correctly </p>
 <p>    If you are having trouble saving a file, make sure that the file name and file type are entered correctly </p>
 <p>    If you are having trouble applying a filter, make sure that the filter parameter is entered correctly </p>
+<br>
 
-<h4> 7) Technical Details </h4>
+<h2>7) Technical Details </h2>
 <p>    All the functions and methods used for making or using this program are detailed in the source code,
     the functions are explained in function.c, the arguments for functions are explained in function.h and the general
     code is explained in image_editor.c </p>
