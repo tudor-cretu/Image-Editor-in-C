@@ -3,7 +3,9 @@
 
 <h1 align = center> PPM and PGM Image Editor </h1>
 <p align = center> <i> Program finished, README under construction </i> </p>
-<h4> 1) Introduction: </h4>
+<br>
+
+<h2> 1) Introduction: </h2>
 <p align = left>    This is a PPM and PGM image editing program. The program is designed to support both ASCII and binary 
     formats, and offers a wide range of features such as cropping, histogram creation, image equalization, 
     and image filtering. The user interface is easy to navigate, making it suitable for both professional
