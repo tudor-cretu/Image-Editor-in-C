@@ -5,14 +5,14 @@
 <p align = center> <i> Program finished, README under construction </i> </p>
 <br>
 
-<h2> 1) Introduction: </h2>
+<h2> 1) Introduction </h2>
 <p align = left>    This is a PPM and PGM image editing program. The program is designed to support both ASCII and binary 
     formats, and offers a wide range of features such as cropping, histogram creation, image equalization, 
     and image filtering. The user interface is easy to navigate, making it suitable for both professional
     and amateur photographers. With this program, you can easily open, edit and save RGB or grayscale images. </p>
 <br>
 
-<h2> 2) Installation: </h2> 
+<h2> 2) Installation </h2> 
 <p>    Download or clone the repository to your local machine. </p>
 <p>    Navigate to the root directory of the project in your terminal. </p>
 <p>    Run the command <make build> to build the program </p>
@@ -20,7 +20,7 @@
 <p>    To clean the generated files from the build process, use the command {make clean} </p>
 <br>
 
-<h2> 3) Usage: </h2>
+<h2> 3) Usage </h2>
 <p>    {input} --> mandatory input </p>
 <p>     [input] --> optional input </p>
 <p> </p>
@@ -36,7 +36,7 @@
 <p>     APPLY {parameter} - applies filter to the image or its selected coordinates, parameter can be SHARPEN, EDGE, BLUR, GAUUSIAN_BLUR </p>
 <br>
 
-<h2> 4) File Formats: </h2>
+<h2> 4) File Formats </h2>
 <p> This program supports the following file formats: </p>
 <p>    -> PGM (Portable Gray Map) ASCII and binary </p>
 <p>    -> PPM (Portable Pixmap) ASCII and binary </p>
@@ -45,7 +45,7 @@
     human-readable text format, while the binary version stores the data in a compact binary format. </p>
 <br>
 
-<h2> 5) Examples: </h2>
+<h2> 5) Examples </h2>
 <p>    Open a binary PGM image "image.pgm" and create a histogram with 20 bins and 50 max stars: </p>
 <p>        LOAD image.pgm </p>
 <p>        HISTOGRAM 50 8 </p>
